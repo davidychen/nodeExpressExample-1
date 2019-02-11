@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.16.4"
+    "babel-eslint": "^10.0.1",
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "mongodb": "^2.2.36"
   },
   "devDependencies": {
     "eslint": "^5.13.0"

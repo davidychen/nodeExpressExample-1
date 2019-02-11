@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Tweets css</title>
+
+  <style>
+  body {
+    font-family: sans-serif;
+  }
+
+
+.tweet {
+    margin: 5px;
+    border: solid 2px;
+    padding: 5px;
+    /*width: 300px;
+    float: left;*/
+  }
+  .user-name {
+    padding: 20px;
+  }
+/* Style the search field */
+form.search input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.search button {
+  float: left;
+  width: 20%;
+  max-width: 50px;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.search button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+</style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-xs-12">
+        <h1>Search Tweets</h1>
+      </div>
+    </div>
+    <!-- row-->
+<div class="row">
+      <div class="col-md-12 col-xs-12">
+        <form class="search" method="GET" action="/api">
+
+  
+
+
+      
